@@ -53,10 +53,52 @@ getInstruction('mashedPotatoes', 0, (step0) => {
 
 
 
-// Iteration 2 - using promises
+// Iteration 2 - using promises NO FUCKING IDEA WHAT I DID HERE EITHER, BUT IT WORKS
 // ...
+obtainInstruction('steak', 0)
+/* .then(  (step0) => { 
+  document.querySelector("#steak").innerHTML += `<li>${step0}</li>`
+  return steak[0];
+  We don't need this one because we already start at index 0
+}) */
+.then(   (step1) => {
+  document.querySelector("#steak").innerHTML += `<li>${step1}</li>`
+  return steak[1];
+})
+.then(   (step2) => {
+  document.querySelector("#steak").innerHTML += `<li>${step2}</li>`
+  return steak[2];
+})
+.then(    (step3) => {
+  document.querySelector('#steak').innerHTML += `<li>${step3}</li>`
+  return steak[3]
+})
+.then(    (step4) => {
+  document.querySelector('#steak').innerHTML += `<li>${step4}</li>`
+  return steak[4]
+})
+.then(    (step5) => {
+  document.querySelector('#steak').innerHTML += `<li>${step5}</li>`
+  return steak[5]
+})
+.then(    (step6) => {
+  document.querySelector('#steak').innerHTML += `<li>${step6}</li>`
+  return steak[6]
+})
+.then(    (step7) => {
+  document.querySelector('#steak').innerHTML += `<li>${step7}</li>`
+  return steak[7]
+})
+.then(    (step8) => {
+  document.querySelector('#steak').innerHTML += `<li>${step8}</li>`
+  return steak[8]
+})
+.then(    (step9) => {
+  document.querySelector('#steak').innerHTML += `<li>${step9}</li>`
+  return steak[9];
+})
 
-
+.catch((err) => console.log(err))
 
 
 
